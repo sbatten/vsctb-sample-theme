@@ -1,0 +1,37 @@
+{
+    "name": "vsctb-sample-theme",
+    "displayName": "VS Code Theme Builder Sample",
+    "description": "A sample extension using vsctb",
+    "publisher": "monekoluv",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sbatten/vsctb-sample-theme"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "VSCTB Sample Light",
+                "uiTheme": "vs",
+                "path": "themes/vs-code theme builder sample-light.json"
+            },
+            {
+                "label": "VSCTB Sample Dark",
+                "uiTheme": "vs-dark",
+                "path": "themes/vs-code theme builder sample-dark.json"
+            }
+        ]
+    },
+    "scripts": {
+        "build-theme": "vsctb --style=style/index.js --palette=style/index.js"
+    },
+    "devDependencies": {
+        "vsctb": "^0.1.0"
+    }
+}

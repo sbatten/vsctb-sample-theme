@@ -1,0 +1,10 @@
+{
+  "name": "vsctb-sample-style",
+  "version": "1.0.0",
+  "description": "A sample style for use with VS Code Theme Builder",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "chroma-js": "^2.1.0"
+  }
+}

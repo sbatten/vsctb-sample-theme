@@ -1,0 +1,7 @@
+{
+  "name": "vsctb-sample-palette",
+  "version": "1.0.0",
+  "description": "A sample color palette for use with VS Code Theme Builder",
+  "main": "index.js",
+  "license": "ISC"
+}
